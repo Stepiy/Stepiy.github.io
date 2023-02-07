@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+table.john {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    border: 1px solid black;
+    padding: 3px 6px;
+}
+
+table.john thead tr th {
+    background-color: black;
+    color: green;
+}
+
+table.john tbody tr:nth-child(1n) {
+    background-color: orange;
+    color: blue;
+}
+
+table.john tbody tr:nth-child(2n) {
+    background-color: blue;
+    color: orange;
+}
+
+table.john tbody tr:hover td {
+    background-color: red;
+}
+
+.main_container {
+    position: relative;
+    width: 950px;
+    height:500px;
+    margin: 0 auto;
+}
+
+.main_container .card {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    background-color: yellow;
+    float: left;
+}
+
+.main_container .card:nth-child(3n) {
+    margin-right: 0px;
+}
